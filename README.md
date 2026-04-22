@@ -1,5 +1,14 @@
 # 🦴 OsteoDetect - AI Fracture Detection
 
+OsteoDetect is an AI-based medical imaging system designed to assist in automated detection of wrist fractures from X-ray images. The project applies deep learning techniques to improve diagnostic accuracy and reduce manual interpretation time in orthopedic imaging.
+
+The system is built using a ResNet-50 transfer learning architecture trained on medical X-ray datasets. It classifies input images into fracture and normal categories and provides visual explanations using Grad-CAM to highlight important regions influencing the prediction.
+
+This project also focuses on model interpretability, making the AI decision process more transparent and reliable for medical use. Performance is evaluated using standard metrics including Accuracy, Precision, Recall, and F1-score.
+
+The dataset used in this project is GRAZPEDWRI-DX, collected from Graz University Hospital (Austria) and collaborating medical institutions in the United Kingdom, containing real clinical wrist X-ray images for robust evaluation.
+
+Overall, this project demonstrates the potential of artificial intelligence in healthcare, especially in medical image analysis and assistive diagnostic systems.
 OsteoDetect is a deep learning-based medical imaging project for automated wrist fracture detection using X-ray images.
 
 It uses a **ResNet-50 transfer learning model** for classification and **Grad-CAM** for explainable AI visualizations.
